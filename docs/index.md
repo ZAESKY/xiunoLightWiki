@@ -3,9 +3,12 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "Xiuno·Light"
+  text: "修罗轻鸿使用教程"
+  tagline: 让您快速上手使用轻鸿主题教程
+  image:
+    src: /logo.png
+    alt: logo
   actions:
     - theme: brand
       text: Markdown Examples
@@ -15,11 +18,15 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 🥰
+    title: 一键焕活论坛
+    details: 轻量不拖沓，简洁有格调，上手即沉浸
+  - icon: 📝
+    title: 社区新灵魂
+    details: 轻捷随心，素简吸睛，一用就懂
+  - icon: 🚀
+    title: 社区打开新方式
+    details: 轻简藏巧思，好用有新意，焕新看得见
 ---
 
+<update />
