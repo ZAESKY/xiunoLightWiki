@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Xiuno·Light"
+  name: "Xiuno·Light 3.5"
   text: "修罗轻鸿使用教程"
   tagline: 让您快速上手使用轻鸿主题教程
   image:
@@ -11,11 +11,11 @@ hero:
     alt: logo
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 开始阅读
+      link: /preface
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 社区交流
+      link: https://www.noteweb.top/
 
 features:
   - icon: 🥰

@@ -1,11 +1,11 @@
 import { defineConfig } from 'vitepress'
-import { nav } from './configs'
+import { nav,sidebar } from './configs'
 import timeline from "vitepress-markdown-timeline";
 import taskLists from 'markdown-it-task-checkbox';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: 'zh-CN', //语言，可选 en-US
-  title: "修罗轻鸿主题使用手册",
+  title: "修罗轻鸿Wiki",
   description: "让您快速上手修罗程序以及轻鸿主题使用。",
   titleTemplate: ':title - 修罗轻鸿主题使用手册',
   cleanUrls:true, //开启纯净链接
@@ -52,47 +52,8 @@ export default defineConfig({
     logo: '/logo.png',
     // https://vitepress.dev/reference/default-theme-config
     nav,
-
-    // sidebar: [
-    //   {
-    //     text: 'Examples',
-    //     items: [
-    //       { text: 'Markdown Examples', link: '/markdown-examples' },
-    //       { text: 'Runtime API Examples', link: '/api-examples' }
-    //     ]
-    //   }
-    // ],
      //侧边栏
-    sidebar: [
-      {
-        //分组标题1
-        text: '介绍',
-        collapsed: false,
-        items: [
-          { text: '前言', link: '/preface' },
-        ],
-      },
-      {
-        //分组标题2
-        text: '基础配置',
-        collapsed: false,
-        items: [
-          { text: '快速上手', link: '/getting-started' },
-          { text: '配置', link: '/configuration' },
-          { text: '页面', link: '/page' },
-          { text: 'Frontmatter', link: '/frontmatter' },
-        ],
-      },
-      {
-        //分组标题3
-        text: '进阶玩法',
-        collapsed: false,
-        items: [
-          { text: 'Markdown', link: '/markdown' },
-          { text: '静态部署', link: '/assets' },
-        ],
-      },
-    ],
+    sidebar,
   },
   //markdown配置
   markdown: {
